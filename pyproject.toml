@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "it-280-python-programming"
+version = "0.1.0"
+description = "Python code for Ensign College, course IT 280 Python Programming"
+authors = ["David Salvatierra"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.30.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
