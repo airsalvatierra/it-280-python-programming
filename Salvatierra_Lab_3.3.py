@@ -1,3 +1,5 @@
+from utils.utils import sort_low, remove_dup
+
 integer_numbers: list = []
 entered_numbers: str = input(
     'Enter a list of interger numbers separeted by spaces: '
@@ -22,8 +24,8 @@ else:
             )
 
     # remove duplicated elements
-    integer_numbers = list(set(integer_numbers))
+    integer_numbers = remove_dup(integer_numbers=integer_numbers)
     # sort the list in ascending order
-    integer_numbers.sort()
+    sort_low(integer_numbers=integer_numbers)
 
     print('The ordered list is: ' + ', '.join(str(i) for i in integer_numbers))
