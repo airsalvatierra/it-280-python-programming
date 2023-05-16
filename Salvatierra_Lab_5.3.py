@@ -2,7 +2,7 @@ import string
 from random import choices, randint, uniform
 
 
-file_name = f'file_{"".join(choices(string.ascii_letters, k=12))}.txt'
+file_name = 'random_file.txt'
 
 # Open the file in write mode withing a context (which makes that file file
 # will be closed after exiting the context)
