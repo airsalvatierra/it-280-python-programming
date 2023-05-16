@@ -128,4 +128,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-random_file_lab53.txt
+*random_file*.txt
