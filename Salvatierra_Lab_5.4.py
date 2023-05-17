@@ -13,6 +13,6 @@ with open(file_name, 'r') as file:
         )
 
     # Loop 20 times
-    with open(f'{file_name[:-4]}_2.txt', 'w') as file:
+    with open(f'{file_name[:-5]}4.txt', 'w') as file:
         # write new file
         file.writelines(modified_lines)
