@@ -131,3 +131,6 @@ dmypy.json
 *random_file*.txt
 *Zip
 numbers3.txt
+
+encrypted_token.bin
+fernet_key.bin
