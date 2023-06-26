@@ -11,6 +11,7 @@ requests = "^2.30.0"
 beautifulsoup4 = "^4.12.2"
 validators = "^0.20.0"
 cryptography = "*"
+Faker = "18.11.1"
 
 
 [build-system]
